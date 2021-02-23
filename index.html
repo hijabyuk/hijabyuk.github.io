@@ -129,8 +129,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="sale">
-                        <a
-                            href="https://api.whatsapp.com/send/?phone=6281510267491&text=Nama:%0aAlamat:%0aNama Hijab:%0aWarna:%0aJumah Pesanan:">
+                        <a href="javascript:void(0);" onclick="adminhijab();">
                             <div class="text-box">
                                 CS Order Whatsapp
                             </div>
@@ -203,5 +202,9 @@
     <script src="assets/scripts/libs/jquery.countdown.min.js"></script>
     <script src="assets/scripts/functions.js"></script>
 </body>
-
+    <script>
+        function adminhijab() {
+            window.location.href = "https://api.whatsapp.com/send/?phone=6281510267491&text=Nama:%0aAlamat:%0aNama Hijab:%0aWarna:%0aJumah Pesanan:";
+        }
+    </script>
 </html>
